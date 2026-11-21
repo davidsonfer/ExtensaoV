@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academia Boa Forma – Saúde & Bem-Estar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Boa<span>Forma</span></div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#planos">Planos</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+    </ul>
+    <button class="btn-nav" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">
+      Quero começar
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-circle c1"></div>
+    <div class="hero-bg-circle c2"></div>
+
+    <div class="hero-text">
+      <div class="hero-badge">✦ Saúde &amp; Bem-Estar em BH</div>
+      <h1 class="hero-titulo">
+        Seu corpo,
+        <span class="destaque">sua melhor</span>
+        versão.
+      </h1>
+      <p class="hero-subtitulo">
+        Na Academia Boa Forma, cuidamos da sua saúde de forma completa — com estrutura de excelência, profissionais qualificados e um ambiente que te inspira todos os dias.
+      </p>
+      <div class="hero-ctas">
+        <a href="#planos" class="btn-primary">Ver planos</a>
+        <a href="#servicos" class="btn-ghost">Nossas modalidades</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-card-main">
+        <div class="big-num">+800</div>
+        <p>alunos transformando suas vidas todo mês</p>
+      </div>
+      <div class="hero-cards-row">
+        <div class="hero-mini-card">
+          <div class="icon">🏋️</div>
+          <strong>12</strong>
+          <span>modalidades disponíveis</span>
+        </div>
+        <div class="hero-mini-card">
+          <div class="icon">⭐</div>
+          <strong>4.9</strong>
+          <span>avaliação dos alunos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="fade-in">
+      <p class="secao-label">Nossa história</p>
+      <h2 class="secao-titulo">Mais de 10 anos<br>transformando vidas</h2>
+      <p class="secao-sub">
+        Fundada em Belo Horizonte, a Academia Boa Forma nasceu com a missão de tornar o cuidado com a saúde acessível, prazeroso e eficaz para todos — do iniciante ao atleta.
+      </p>
+      <div class="sobre-stats">
+        <div class="stat-item"><strong>+10</strong><span>anos de experiência</span></div>
+        <div class="stat-item"><strong>800+</strong><span>alunos ativos</span></div>
+        <div class="stat-item"><strong>98%</strong><span>de satisfação</span></div>
+        <div class="stat-item"><strong>30+</strong><span>professores especializados</span></div>
+      </div>
+    </div>
+    <div class="sobre-valores fade-in">
+      <div class="valor-card">
+        <div class="valor-icon">🌱</div>
+        <div>
+          <h3>Bem-estar integral</h3>
+          <p>Cuidamos do corpo e da mente com programas adaptados ao seu estilo de vida.</p>
+        </div>
+      </div>
+      <div class="valor-card">
+        <div class="valor-icon">🤝</div>
+        <div>
+          <h3>Comunidade acolhedora</h3>
+          <p>Um ambiente inclusivo onde cada pessoa é respeitada e incentivada em sua jornada.</p>
+        </div>
+      </div>
+      <div class="valor-card">
+        <div class="valor-icon">🎯</div>
+        <div>
+          <h3>Resultados reais</h3>
+          <p>Metodologia baseada em evidências científicas para garantir progresso seguro e eficaz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <div class="servicos-header fade-in">
+      <div>
+        <p class="secao-label">O que oferecemos</p>
+        <h2 class="secao-titulo">Modalidades para<br>todos os objetivos</h2>
+      </div>
+      <p class="secao-sub">Estrutura completa para você alcançar seus resultados com saúde, segurança e motivação.</p>
+    </div>
+    <div class="servicos-grid fade-in">
+      <div class="servico-card destaque">
+        <span class="servico-emoji">🏋️‍♂️</span>
+        <h3>Musculação</h3>
+        <p class="servico-desc">Sala equipada com aparelhos modernos e acompanhamento personalizado de instrutores certificados.</p>
+        <span class="servico-tag">Popular</span>
+      </div>
+      <div class="servico-card">
+        <span class="servico-emoji">🚴‍♂️</span>
+        <h3>Spinning</h3>
+        <p class="servico-desc">Pedaladas em grupo com música e energia para queimar calorias e melhorar o condicionamento.</p>
+        <span class="servico-tag">Cardio</span>
+      </div>
+      <div class="servico-card">
+        <span class="servico-emoji">🥊</span>
+        <h3>Muay Thai</h3>
+        <p class="servico-desc">Arte marcial que combina treino funcional intenso com aprendizado técnico e disciplina.</p>
+        <span class="servico-tag">Luta</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section id="planos">
+    <div class="planos-header fade-in">
+      <p class="secao-label">Investimento</p>
+      <h2 class="secao-titulo">Escolha seu plano</h2>
+      <p class="secao-sub">Sem taxas escondidas. Cancele quando quiser. Comece com 7 dias gratuitos.</p>
+    </div>
+    <div class="planos-grid fade-in">
+
+      <div class="plano-card">
+        <p class="plano-nome">Básico</p>
+        <div class="plano-preco">
+          <span class="cifra">R$</span>
+          <span class="valor">89</span>
+          <span class="periodo">/mês</span>
+        </div>
+        <ul class="plano-features">
+          <li>Acesso à sala de musculação</li>
+          <li>Horários livres</li>
+          <li>Avaliação física inicial</li>
+          <li>Vestiário completo</li>
+        </ul>
+        <a href="#contato" class="btn-plano">Começar agora</a>
+      </div>
+
+      <div class="plano-card popular">
+        <div class="plano-badge">⭐ Mais popular</div>
+        <p class="plano-nome">Completo</p>
+        <div class="plano-preco">
+          <span class="cifra">R$</span>
+          <span class="valor">149</span>
+          <span class="periodo">/mês</span>
+        </div>
+        <ul class="plano-features">
+          <li>Tudo do plano Básico</li>
+          <li>Acesso a todas as aulas</li>
+          <li>Acompanhamento nutricional</li>
+          <li>Personal trainer (2x/sem)</li>
+          <li>App de treinos exclusivo</li>
+        </ul>
+        <a href="#contato" class="btn-plano">Quero este plano</a>
+      </div>
+
+      <div class="plano-card">
+        <p class="plano-nome">Premium</p>
+        <div class="plano-preco">
+          <span class="cifra">R$</span>
+          <span class="valor">219</span>
+          <span class="periodo">/mês</span>
+        </div>
+        <ul class="plano-features">
+          <li>Tudo do plano Completo</li>
+          <li>Personal trainer ilimitado</li>
+          <li>Acesso à piscina</li>
+          <li>Massagem mensal</li>
+          <li>Prioridade em horários</li>
+          <li>Convidado 1x/semana</li>
+        </ul>
+        <a href="#contato" class="btn-plano">Começar agora</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos">
+    <div class="depo-header fade-in">
+      <p class="secao-label">Depoimentos</p>
+      <h2 class="secao-titulo">Quem treina, recomenda</h2>
+    </div>
+    <div class="depo-grid fade-in">
+      <div class="depo-card">
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-texto">"Em 4 meses perdi 12kg e me sinto melhor do que nunca. Os instrutores são incríveis e o ambiente é muito acolhedor. A academia mudou minha vida!"</p>
+        <div class="depo-autor">
+          <div class="depo-avatar a1">CM</div>
+          <div class="depo-autor-info">
+            <strong>Camila Martins</strong>
+            <span>Aluna há 8 meses</span>
+          </div>
+        </div>
+      </div>
+      <div class="depo-card">
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-texto">"As aulas de spinning são viciantes! Melhorei muito meu condicionamento físico e ainda fiz amizades incríveis. Super recomendo para quem quer qualidade de vida."</p>
+        <div class="depo-autor">
+          <div class="depo-avatar a2">RP</div>
+          <div class="depo-autor-info">
+            <strong>Rafael Pereira</strong>
+            <span>Aluno há 1 ano e 3 meses</span>
+          </div>
+        </div>
+      </div>
+      <div class="depo-card">
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-texto">"Depois de anos sem praticar atividade física, a Boa Forma me recebeu com cuidado e paciência. O plano nutricional foi decisivo. Me sinto muito mais disposta!"</p>
+        <div class="depo-autor">
+          <div class="depo-avatar a3">JO</div>
+          <div class="depo-autor-info">
+            <strong>Juliana Oliveira</strong>
+            <span>Aluna há 5 meses</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <p class="secao-label">Vamos começar</p>
+    <h2 class="secao-titulo">7 dias grátis,<br>sem compromisso.</h2>
+    <p>Deixe seu e-mail e entraremos em contato para agendar sua visita e avaliação física gratuita.</p>
+    <div class="contato-form">
+      <input type="text" placeholder="Seu nome" id="nome-inp" />
+      <input type="email" placeholder="Seu e-mail" id="email-inp" />
+      <button class="btn-contato" onclick="enviarContato()">Quero começar →</button>
+    </div>
+    <div class="contato-info">
+      <div class="info-item">
+        <span class="info-label">Endereço</span>
+        <strong>Rua. Divisa Nova, 501 – BH</strong>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Horário</span>
+        <strong>Seg–Sex 5h–22h · Sáb 9h–12h</strong>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Telefone</span>
+        <strong>(31) 99999-1234</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>© 2025 Academia Boa Forma <span>·</span> Belo Horizonte, MG <span>·</span> Todos os direitos reservados</p>
+    <p style="margin-top:.4rem; font-size:.78rem;">Projeto de Extensão Universitária – Saúde &amp; Bem-Estar</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
